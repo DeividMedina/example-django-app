@@ -15,7 +15,6 @@ steps:
 - task: UsePythonVersion@0
   inputs:
     versionSpec: '3.8'
-    architecture: 'x64'
 
 - task: PythonScript@0
   displayName: 'Export project path'

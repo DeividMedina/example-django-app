@@ -46,5 +46,5 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFiles: "**/TEST-*.xml"
-    testRunTitle: 'Python $(PYTHON_VERSION)'
+    testRunTitle: 'Python 3.8'
   condition: succeededOrFailed()
